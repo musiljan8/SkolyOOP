@@ -6,3 +6,21 @@
  * and open the template in the editor.
  */
 
+require_once 'classes/Skola.php';
+require_once 'classes/Trida.php';
+require_once 'classes/Deti.php';
+
+$skola = new Skolka();
+$skola->nazev = "Moje skolka";
+$skola->adresa = "Karany";
+$skola->pocetZaku = 23;
+
+
+
+
+
+
+
+echo $skola->nazev;
+
+?>
